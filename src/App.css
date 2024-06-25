@@ -1,0 +1,48 @@
+@font-face {
+  font-family: trap;
+  src: url(/Trap.otf);
+}
+
+@font-face {
+  font-family: kaush;
+  src: url(/KaushanScript-Regular.ttf);
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0 ;
+}
+
+body{
+  display: flex;
+  overflow: hidden;
+  font-family: trap;
+  background-color:hsla(209,0%,0%,1);
+background-image:
+radial-gradient(at 93% 0%, hsla(217,49%,41%,0.54) 0px, transparent 50%),
+radial-gradient(at 35% 8%, hsla(201,12%,16%,1) 0px, transparent 50%),
+radial-gradient(at 79% 67%, hsla(202,5%,16%,1) 0px, transparent 50%),
+radial-gradient(at 7% 100%, hsla(200,47%,36%,0.44) 0px, transparent 50%),
+radial-gradient(at 18% 89%, hsla(227,0%,12%,1) 0px, transparent 50%);
+}
+
+
+.modal,.splash-screen{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 1rem;
+  color: white;
+}
+
+
+
+
