@@ -41,6 +41,14 @@
 
   .login_box form{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40dvw;
+    /* background: red; */
+    /* height: auto; */
+    /* overflow: hidden; */
+    justify-content: center;
+    align-items: center;
   }
   
   .login_box input {
@@ -51,11 +59,21 @@
     /* margin: 1rem; */
     margin-bottom: 1.5rem;
     outline: none;
-    border: 2px rgb(31, 31, 31) solid;
+    border: 1px rgb(31, 31, 31) solid;
+    justify-content: center;
+    align-items: center;
+    /* border: none; */
+    /* margin-right: 5rem; */
 
     padding: 20px;
     border-radius: 5px;
+    font-family: trap;
+    
   
+  }
+
+  .login_box input:nth-child(1){
+    margin-top: 1rem;
   }
   
   .login_box button {
@@ -94,12 +112,16 @@
   }
   .error{
     display: flex;
-    width: 100%;
+    width: max-content;
     justify-content: center;
     /* background: darkgoldenrod; */
     height: 50px;
     align-items: center;
     position: absolute;
+    top: -12%;
+    /* right: 0%; */
+    /* left: 0; */
+    width: 100%;
   }
 
   @media only screen and (max-width: 1000px) {
