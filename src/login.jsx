@@ -38,8 +38,8 @@ const Login = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-             {error && <p className='error'>{error}</p>}
             <span className='buttoncon'><button type="submit">Login</button></span>
+             {error && <p className='error'>{error}</p>}
           </form>
          
         </div>

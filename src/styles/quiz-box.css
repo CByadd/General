@@ -197,7 +197,7 @@ border: 1px solid rgba(0, 0, 0, 0.3);
     display: flex;
     position: relative;
     /* scale: .8; */
-    max-height: 95%;
+    max-height: 4dvh;
     
   }
   
@@ -229,16 +229,17 @@ border: 1px solid rgba(0, 0, 0, 0.3);
   }
   
   .navigation-buttons button{
-    height: 50px;
-    width: 150px;
+    height: 45px;
+    width: 130px;
     border-radius: 10px;
     background:  #00a0fd;
-    font-size: large;
+    font-size: 15px;
     border: none;
     transition: .2s ease-in-out;
     cursor: pointer;
     text-align: center;
     color: white;
+
   
   }
   
@@ -261,7 +262,7 @@ border: 1px solid rgba(0, 0, 0, 0.3);
   
   .questionhalf{
     position: absolute;
-    bottom: 1%;
+    bottom: 0%;
     /* background: dodgerblue; */
     width: 100%;
   }
@@ -270,7 +271,7 @@ border: 1px solid rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     position:relative;
-    margin-top: 1rem;
+    margin-top: .2rem;
     justify-content: center;
     align-items: center;
     /* background: #28a745; */
