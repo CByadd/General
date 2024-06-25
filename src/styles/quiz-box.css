@@ -282,3 +282,27 @@ border: 1px solid rgba(0, 0, 0, 0.3);
     margin-bottom: 1rem;
   }
   
+
+
+  
+  @media only screen and (max-width: 1200px) {
+
+
+    .questionhalf{
+      position: relative;
+    }
+
+    .option-item img{
+      max-height: 90%;
+    }
+   
+ .d_n-container{
+   display: none;
+
+ }
+ 
+ .questionimg{
+  height: auto;
+ }
+
+  }

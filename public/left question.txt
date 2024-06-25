@@ -9,3 +9,16 @@
           "image":"/questions/Chapter-4/5-image.png",
           "answer": "/questions/Chapter-4/5 (1).png"
         },
+
+
+          {
+          "question": "/questions/Chapter-1/10.png",
+          "options": [
+            "/questions/Chapter-1/10 (1).png",
+            "/questions/Chapter-1/10 (2).png",
+            "/questions/Chapter-1/10 (3).png",
+            "/questions/Chapter-1/10 (4).png"
+          ],
+          "answer": "/questions/Chapter-1/10 (2).png",
+          "layout": "grid"
+        },

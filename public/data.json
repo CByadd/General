@@ -107,17 +107,7 @@
           "answer": "/questions/Chapter-1/9 (3).png",
           "layout": "grid"
         },
-        {
-          "question": "/questions/Chapter-1/10.png",
-          "options": [
-            "/questions/Chapter-1/10 (1).png",
-            "/questions/Chapter-1/10 (2).png",
-            "/questions/Chapter-1/10 (3).png",
-            "/questions/Chapter-1/10 (4).png"
-          ],
-          "answer": "/questions/Chapter-1/10 (2).png",
-          "layout": "grid"
-        },
+      
         {
           "question": "/questions/Chapter-1/11.png",
           "options": [

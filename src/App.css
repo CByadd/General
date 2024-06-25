@@ -51,3 +51,10 @@ radial-gradient(at 18% 89%, hsla(227,0%,12%,1) 0px, transparent 50%);
   color: none;
   background: none;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .modal,.splash-screen{
+    font-size: 5dvw;
+  }
+}
