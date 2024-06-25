@@ -556,17 +556,7 @@
           ],
           "answer": "/questions/Chapter-4/4 (4).png"
         },
-        {
-          "question": "/questions/Chapter-4/5.png",
-          "options": [
-            "/questions/Chapter-4/5 (1).png",
-            "/questions/Chapter-4/5 (2).png",
-            "/questions/Chapter-4/5 (3).png",
-            "/questions/Chapter-4/5 (4).png"
-          ],
-          "image":"/questions/Chapter-4/5-image.png",
-          "answer": "/questions/Chapter-4/5 (1).png"
-        },
+    
         {
           "question": "/questions/Chapter-4/6.png",
           "options": [
