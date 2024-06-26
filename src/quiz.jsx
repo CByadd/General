@@ -4,8 +4,8 @@ import { w3cwebsocket as W3CWebSocket } from 'websocket';
 // import './Quiz.css';
 import CountUp from 'react-countup';
 
-
-const client = new W3CWebSocket('ws://localhost:8080');
+// 
+// const client = new W3CWebSocket('ws://localhost:8080');
 
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -103,7 +103,7 @@ const Quiz = () => {
   const handleSubmitQuiz = () => {
     if (Object.keys(selectedOptions).length === quiz.length) {
       setShowResults(true);
-      sendScoreToServer();
+      // sendScoreToServer();
     }
   };
 
@@ -119,10 +119,10 @@ const Quiz = () => {
   };
 
 
-  const sendScoreToServer = () => {
-    const score = calculateResults();
-    client.send(JSON.stringify({ type: 'score', value: score, name: user.name, std: user.std, appName: '12th Physics Quiz' }));
-  };
+  // const sendScoreToServer = () => {
+  //   const score = calculateResults();
+  //   client.send(JSON.stringify({ type: 'score', value: score, name: user.name, std: user.std, appName: '12th Physics Quiz' }));
+  // };
 
   return (
     <div className="quiz-container">
