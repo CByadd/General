@@ -233,11 +233,7 @@ const Quizpro = () => {
               <h3>Your Score: </h3>
               <span className="animated-score">
                 <CountUp start={0} end={calculateResults()} delay={0.5} duration={2}>
-                  {({ countUpRef }) => (
-                    <div>
-                      <span ref={countUpRef} />
-                    </div>
-                  )}
+              
                 </CountUp>
                 <p className="linethoeu"></p>
                 {quiz.length}
