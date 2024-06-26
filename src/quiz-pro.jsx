@@ -54,6 +54,7 @@ const Quizpro = () => {
     fetch('/data.json')
       .then(response => response.json())
       .then(data => {
+        console.log('Fetched data:', data); // Debug log
         const chapters = data.chapters;
         const selectedQuiz = generateQuiz(chapters);
 
@@ -85,6 +86,7 @@ const Quizpro = () => {
   }, [user, navigate]);
 
   const handleOptionSelect = (questionIndex, option) => {
+    console.log('Selected option:', option); // Debug log
     setSelectedOptions(prevOptions => ({ ...prevOptions, [questionIndex]: option }));
   };
 
@@ -98,6 +100,7 @@ const Quizpro = () => {
 
   const handleSubmitQuiz = () => {
     if (Object.keys(selectedOptions).length === quiz.length) {
+      console.log('Quiz submitted with selected options:', selectedOptions); // Debug log
       setShowResults(true);
     }
   };
@@ -109,6 +112,7 @@ const Quizpro = () => {
         score++;
       }
     });
+    console.log('Calculated score:', score); // Debug log
     return score;
   };
 
