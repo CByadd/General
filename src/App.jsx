@@ -7,6 +7,7 @@ import './App.css'
 import Quiz from './quiz'
 import Login from './login'
 import { BrowserRouter as Router, Route, Routes, useNavigate } from "react-router-dom";
+import Quizpro from './quiz-pro'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Login/>} />
           <Route path="/quizbox" element={<Quiz/>}/>
+          <Route path="/quizboxpro" element={<Quizpro/>}/>
+          
         </Routes>
        
       </div>

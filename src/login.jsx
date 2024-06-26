@@ -13,7 +13,7 @@ const Login = () => {
     const user = credentials.find(cred => cred.id === id && cred.pass === password);
     if (user) {
       localStorage.setItem('user', JSON.stringify(user)); // Save user data in local storage
-      navigate("/quizbox", { state: { user } });
+      navigate("/quizboxpro", { state: { user } });
     } else {
       setError("Invalid ID or Password ");
     }
